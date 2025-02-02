@@ -20,6 +20,6 @@
   const fullStackDeveloper: FullStackDeveloper = {
     skills: ["js", "next js"],
     role1: "Frontend end developer",
-    role2: "Back end developer"
+    role2: "Back end developer",
   };
 }
