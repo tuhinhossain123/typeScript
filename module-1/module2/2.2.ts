@@ -14,8 +14,7 @@
     role: "admin",
   };
 
-
-// interface
+  // interface
 
   interface User2 {
     name: string;
@@ -30,6 +29,14 @@
     age: 21,
     role: "Admin",
   };
+
+  type Roll = [];
+
+  interface Roll2 {
+    [index: number]: number;
+  }
+
+  const numbers: Roll2 = [1, 3, 4, 5, 6, 7];
 
   //
 }
