@@ -18,5 +18,11 @@
     },
   ];
 
+  //   genereric tuple
+
+  type GenericArr<X, Y> = [X, Y];
+
+  const tuhin: GenericArr<string, number> = ["Tuhin Hossain", 32];
+
   //
 }
