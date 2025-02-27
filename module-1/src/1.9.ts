@@ -1,37 +1,28 @@
 {
-  // type alias
-
-  type Student = {
-    id: number;
+  //
+  // type alies
+  type User = {
     name: string;
     age: number;
-    phone?: string;
+    address: string;
+    contact: string;
   };
 
-  const student1: Student = {
-    id: 12,
-    name: "Tuhin hossain",
+  const user: User = {
+    name: "Tuhin Hossain",
     age: 23,
-  };
-  const student2: Student = {
-    id: 12,
-    name: "Tuhin hossain",
-    age: 23,
-  };
-  const student3: Student = {
-    id: 12,
-    name: "Tuhin hossain",
-    age: 23,
-    phone: "02938956467",
+    address: "cumilla",
+    contact: "01835143562",
   };
 
-  //   string alias
+  // string type alias
+  type Names = string;
+  const name: Names = "Tuhin Hosain";
 
-  type User = string;
-  const name: User = "tuhin";
+  // funtion type alies
 
-  //   function alias
   type Add = (num1: number, num2: number) => number;
 
   const add: Add = (num1, num2) => num1 + num2;
+  //
 }
