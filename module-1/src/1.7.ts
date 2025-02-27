@@ -1,23 +1,26 @@
 {
-  // spreed operator
+  //
+  // spreed operators
 
-  const friends1: string[] = ["1", "3"];
-  const friends2: string[] = ["7", "7"];
-  friends1.push(...friends2);
+  const num1: number[] = [1, 2, 3, 4, 5];
+  const num2: number[] = [6, 7, 8, 9, 0];
+  num1.push(...num2);
 
-  const phn1 = {
-    model: "redmi",
-    ram: "8 gb",
-    rom: "120 gb",
+  const tuhu: { name: string; age: number; distric: string } = {
+    name: "Tuhin Hossain",
+    age: 23,
+    distric: "Cumilla",
   };
-  const phn2 = {
-    model: "samsung",
-    ram: "8 gb",
-    rom: "120 gb",
+  const afi: { name: string; age: number; distric: string } = {
+    name: "Afrin",
+    age: 22,
+    distric: "ctg",
   };
 
-  const phnList = {
-    ...phn1,
-    ...phn2,
+  const couple = {
+    ...tuhu,
+    ...afi,
   };
+
+  //
 }
