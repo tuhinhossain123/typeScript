@@ -1,19 +1,24 @@
-// Basic Data Type
+{
+  //Primitive data type
 
-// number
-const age: number = 30;
+  // Basic data type
 
-//  string
-const names: string = "Tuhin Hossain";
+  //   string type data
+  const name: string = "Tuhin";
+  const herName: string = "Jannatul Mawa Sadia";
 
-// boolean
-const isRelation: boolean = true;
+  //   number type data
+  const roll: number = 480758;
+  const year: number = 2025;
 
-// array
-const numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const namess: string[] = ["t", "3"];
+  //   boolean type data
 
-// tuople
+  const marrid: boolean = false;
+  const isJob: boolean = false;
 
-const classRoll: [string, number] = ["10", 1];
-classRoll[0] = "22";
+  //   touple type data
+
+  const her: [string, number] = ["sfsdfs", 12];
+
+  //
+}
