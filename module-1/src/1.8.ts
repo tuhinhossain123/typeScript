@@ -1,4 +1,6 @@
 {
+  //
+
   // destrucring
 
   const user = {
@@ -15,5 +17,8 @@
   const {
     id,
     names: { firstName, lastName },
+    age,
   } = user;
+
+  //
 }
