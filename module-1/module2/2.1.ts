@@ -1,23 +1,23 @@
 {
   //
-
+  // type agertion
   let anything: any;
-
-  anything = "My Name is Tuhin Hossain";
-  anything = 4807;
-
-  (anything as number).toFixed;
+  anything = "Tuhin Hossain";
+  anything = false;
+  anything = 12;
+  (anything as number).toString;
 
   const kgToGm = (value: string | number): string | number | undefined => {
     if (typeof value === "string") {
-      const convertedValue = parseFloat(value) * 1000;
-      return `The Converted Value is : ${convertedValue}`;
-    } else if (typeof value === "number") {
+      const convertedValu = parseFloat(value) * 1000;
+      return `The Convertd Value is ${convertedValu}`;
+    } else {
       return value * 1000;
     }
   };
 
-  const check = kgToGm(32) as number;
+  const result1 = kgToGm(10) as number;
+  const result2 = kgToGm('12') as string;
 
   //
 }
