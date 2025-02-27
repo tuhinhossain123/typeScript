@@ -1,20 +1,20 @@
 {
-  //
+  //type alies extends
 
   type User1 = {
     name: string;
     age: number;
   };
 
-  type UserWithRole = User1 & { role: string };
+  type UserWithRole1 = User1 & { role: string };
 
-  const user1: UserWithRole = {
+  const user1: UserWithRole1 = {
     name: "Tuhin Hossain",
-    age: 21,
+    age: 12,
     role: "admin",
   };
 
-  // interface
+  //interface extends
 
   interface User2 {
     name: string;
@@ -24,19 +24,12 @@
   interface UserWithRole2 extends User2 {
     role: string;
   }
+
   const user2: UserWithRole2 = {
     name: "Tuhin Hossain",
-    age: 21,
-    role: "Admin",
+    age: 12,
+    role: "admin",
   };
-
-  type Roll = [];
-
-  interface Roll2 {
-    [index: number]: number;
-  }
-
-  const numbers: Roll2 = [1, 3, 4, 5, 6, 7];
 
   //
 }
